@@ -1,0 +1,12 @@
+
+usia = int(input("Masukkan usia Anda: "))
+
+if usia < 18:
+    print("Anda tidak memenuhi syarat untuk tiket diskon karena usia Anda kurang dari 18 tahun.")
+else:
+    keanggotaan_klub_film = input("Apakah Anda anggota klub film? (y/n): ").lower()
+
+    if keanggotaan_klub_film == 'y':
+        print("Anda memenuhi syarat untuk tiket diskon.")
+    else:
+        print("Anda tidak memenuhi syarat untuk tiket diskon.")

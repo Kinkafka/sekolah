@@ -1,0 +1,36 @@
+print("selmaat datang di dahel")
+Nama = input("masukan nama :")
+umur = input("masukan umur :")
+print("haloo", Nama, "selamat menikmati wahana di dahel")
+
+print("daftar wahana")
+daftar = ["Biang lala : Rp. 13.000", "Istana boneka : Rp. 10.000", "Rumah hantu : Rp. 15.000", "roller coster : Rp. 20.000"]
+angka = 1
+for daftar in daftar:
+    print(int(angka), daftar)
+    angka = (int(angka) + 1)
+pilih = int(input("pilih wahana :"))
+
+if(int(pilih) == 1 ):
+    print("tiket Rp. 13.000")
+    print(" + pajak Rp.2.000")
+    print("total keseluruhan yang harus kamu bayar adalah Rp. 15.000")
+
+if(int(pilih) == 2 ):
+    print("tiket Rp. 10.000")
+    print(" + pajak Rp.2.000")
+    print("total keseluruhan yang harus kamu bayar adalah Rp. 13.000")
+
+if(int(pilih) == 3 ):
+    print("tiket Rp. 15.000")
+    print(" + pajak Rp.2.000")
+    print("total keseluruhan yang harus kamu bayar adalah Rp. 17.000")
+
+if(int(pilih) == 4 ):
+    print("tiket Rp. 20.000")
+    print(" + pajak Rp.2.000")
+    print("total keseluruhan yang harus kamu bayar adalah Rp. 22.000")
+
+else:
+    print("kamu tidak memenuhi syarat.")
+
